@@ -1,7 +1,8 @@
 import React from 'react';
-import avatar from '../../images/avatar.png';
-import avatar_click from '../../images/avatar_click.png';
-import avatar_hover from '../../images/avatar_hover.png';
+import avatar from '../../images/default.png';
+import avatar_click from '../../images/click.png';
+import avatar_hover from '../../images/hover.png';
+import avatar_sleep from '../../images/sleep.png';
 
 class Avatar extends React.Component {
 
@@ -9,19 +10,35 @@ class Avatar extends React.Component {
         image: avatar
     }
 
+    setImage(event){
+        switch(event){
+            case "hover":
+                this.setState({image: avatar_hover});
+                break;
+            case "click":
+                this.setState({image: avatar_click});
+                break;
+            case "sleep":
+                this.setState({image: avatar_sleep});
+                break;
+            default:
+                this.setState({image: avatar});
+        }
+    }
 
     render(){
         return(<img src={this.state.image} alt="An 8-bit representation of Anna Jacobsen." 
                 onMouseEnter={() => {
-                    this.setState({image: avatar_hover})
+                    this.setImage("hover");
                 }}
                 
                 onMouseLeave={() => {
-                    this.setState({image: avatar})
+                    this.setImage();
+                    setTimeout(() => {this.setImage("sleep")}, 30000);
                 }}
 
                 onMouseDown={() => {
-                    this.setState({image: avatar_click})
+                    this.setImage("click");
                 }}
             />)
     }
