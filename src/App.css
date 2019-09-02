@@ -5,12 +5,16 @@
 
 body {
   background-color: #2c2c2c;
+  color: #FFFFFF;
 }
 
-.sectionHeader {
+h1, h2, h3 {
   text-align: left;
   font-weight: bold;
   font-family: 'Press Start 2P', cursive;
+}
+
+.sectionHeader {
   margin-left: 10%;
   font-size: 1.6rem;
   padding: 50px 0px 15px 0px;
