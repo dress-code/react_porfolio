@@ -3,6 +3,7 @@ import avatar from '../../images/default.png';
 import avatar_click from '../../images/click.png';
 import avatar_hover from '../../images/hover.png';
 import avatar_sleep from '../../images/sleep.png';
+import './avatar.css';
 
 class Avatar extends React.Component {
 
