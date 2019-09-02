@@ -3,6 +3,54 @@
   padding: 0;
 }
 
+body {
+  background-color: #2c2c2c;
+}
+
+.sectionHeader {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 10%;
+  font-size: 1.6rem;
+  padding: 50px 0px 15px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hotpink{
+  color: #EF2D56;
+}
+.yellow{
+  color: #FFBA49;
+}
+.brightblue{
+  color: #1597ed;
+}
+
+@keyframes blinky {
+  0% {opacity:1}
+  100% {opacity:0}
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+
+.typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+}
+
+.blinky {
+  animation-name: blinky;
+  animation-duration: 300ms;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-iteration-count: 40;
+  animation-delay:2700ms;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
