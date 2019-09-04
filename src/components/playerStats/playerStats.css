@@ -7,6 +7,6 @@
 }
 
 .lists {
-    flex-direction:column;
+    flex-direction: column;
     align-items: baseline;
 }
