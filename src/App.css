@@ -12,10 +12,10 @@ body {
   display: flex;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   text-align: left;
   font-weight: bold;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif;
 }
 
 .sectionHeader {
@@ -34,6 +34,10 @@ h1, h2, h3 {
 }
 .brightblue{
   color: #1597ed;
+}
+
+.center-vertical {
+  align-items: center;
 }
 
 @keyframes blinky {
