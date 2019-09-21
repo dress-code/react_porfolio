@@ -1,1 +1,44 @@
-<?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg enable-background="new 0 0 160 80" id="Layer_1" version="1.1" viewBox="0 0 160 80" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect height="6" width="7" x="83" y="17"/><rect height="6" width="6" x="77" y="17"/><rect height="6" width="6" x="71" y="17"/><rect height="6" width="6" x="59" y="18"/><rect height="6" width="6" x="59" y="24"/><rect height="6" width="6" x="59" y="30"/><rect height="6" width="6" x="59" y="36"/><rect height="6" width="6" x="77" y="36"/><rect height="6" width="6" x="71" y="36"/><rect height="6" width="6" x="59" y="42"/><rect height="6" width="6" x="59" y="48"/><rect height="6" width="5" x="96" y="18"/><rect height="7" width="6" x="59" y="11"/><rect height="7" width="5" x="96" y="11"/><rect height="5" width="7" x="83" y="6"/><rect height="5" width="6" x="77" y="6"/><rect height="5" width="6" x="71" y="6"/><rect height="5" width="6" x="65" y="6"/><rect height="5" width="6" x="90" y="6"/><rect height="6" width="5" x="96" y="24"/><rect height="6" width="5" x="96" y="30"/><rect height="6" width="5" x="96" y="36"/><rect height="6" width="5" x="96" y="42"/><rect height="6" width="5" x="96" y="48"/><rect height="7" width="5" x="96" y="54"/><rect height="6" width="7" x="83" y="48"/><rect height="6" width="6" x="77" y="48"/><rect height="6" width="6" x="71" y="48"/><rect height="7" width="6" x="59" y="54"/><rect height="5" width="6" x="90" y="61"/><rect height="5" width="7" x="83" y="61"/><rect height="5" width="6" x="77" y="61"/><rect height="5" width="6" x="71" y="61"/><rect height="5" width="6" x="65" y="61"/></g></svg>
+<svg width="160" height="80" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill="#2c2c2c" id="svg_2" y="17" x="83" width="7" height="6"/>
+  <rect fill="#2c2c2c" id="svg_3" y="17" x="77" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_4" y="17" x="71" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_5" y="18" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_6" y="24" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_7" y="30" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_8" y="36" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_9" y="36" x="77" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_10" y="36" x="71" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_11" y="42" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_12" y="48" x="59" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_13" y="18" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_14" y="11" x="59" width="6" height="7"/>
+  <rect fill="#2c2c2c" id="svg_15" y="11" x="96" width="5" height="7"/>
+  <rect fill="#2c2c2c" id="svg_16" y="6" x="83" width="7" height="5"/>
+  <rect fill="#2c2c2c" id="svg_17" y="6" x="77" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_18" y="6" x="71" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_19" y="6" x="65" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_20" y="6" x="90" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_21" y="24" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_22" y="30" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_23" y="36" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_24" y="42" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_25" y="48" x="96" width="5" height="6"/>
+  <rect fill="#2c2c2c" id="svg_26" y="54" x="96" width="5" height="7"/>
+  <rect fill="#2c2c2c" id="svg_27" y="48" x="83" width="7" height="6"/>
+  <rect fill="#2c2c2c" id="svg_28" y="48" x="77" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_29" y="48" x="71" width="6" height="6"/>
+  <rect fill="#2c2c2c" id="svg_30" y="54" x="59" width="6" height="7"/>
+  <rect fill="#2c2c2c" id="svg_31" y="61" x="90" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_32" y="61" x="83" width="7" height="5"/>
+  <rect fill="#2c2c2c" id="svg_33" y="61" x="77" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_34" y="61" x="71" width="6" height="5"/>
+  <rect fill="#2c2c2c" id="svg_35" y="61" x="65" width="6" height="5"/>
+ </g>
+</svg>

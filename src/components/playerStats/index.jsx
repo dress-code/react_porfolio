@@ -8,7 +8,7 @@ class PlayerStats extends React.Component{
     render(){
         return(
         <div className="container column">
-            <div class="container column center-vertical">
+            <div className="container column center-vertical">
                 <Avatar />
                 <Health hearts="4"/>
             </div>

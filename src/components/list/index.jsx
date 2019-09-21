@@ -4,10 +4,10 @@ import './list.css';
 const List = (props) => {
      return (
          <div className="list">
-            <h3 class="hotpink listTitle">{props.title}</h3>
+            <h3 className="hotpink listTitle">{props.title}</h3>
             <ul>
                 {props.items.map((item, index) => (
-                <li>{item}</li>
+                <li key={index}>{item}</li>
                 ))}
             </ul>
          </div>

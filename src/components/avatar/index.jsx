@@ -28,7 +28,7 @@ class Avatar extends React.Component {
     }
 
     render(){
-        return(<img class="avatar" src={this.state.image} alt="An 8-bit representation of Anna Jacobsen." 
+        return(<img className="avatar" src={this.state.image} alt="An 8-bit representation of Anna Jacobsen." 
                 onMouseEnter={() => {
                     this.setImage("hover");
                 }}
