@@ -9,7 +9,7 @@ function App() {
     <div className="App container column">
       <TopBar />
       <ButtonsMenu />
-      <PlayerStatsPage />
+      {/*<PlayerStatsPage />*/}
     </div>
   );
 }

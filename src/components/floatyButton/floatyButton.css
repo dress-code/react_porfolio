@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     border: 3px solid #FFBA49;
-    height: 52.5px;
-    width: 52.5px;
+    height: 32.5px;
+    width: 32.5px;
     margin-right: 25px;
     margin-bottom: 25px;
     padding: 12.5px;
@@ -15,8 +15,8 @@
     cursor: pointer;
 }
 
-.floatyButton > h1 {
-    font-size: 8px;
+.floatyButton > p {
+    font-size: 9px;
     text-align: center;
 }
 
