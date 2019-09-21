@@ -1,15 +1,15 @@
 import React from 'react';
 import ButtonsMenu from "./components/buttonsMenu";
-import Header from './components/header';
-import PlayerStats from './components/playerStats';
+import PlayerStatsPage from "./components/playerStatsPage";
+import TopBar from './components/topBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App container column">
-      <Header text="Player Stats"/>
-      <PlayerStats />
+      <TopBar />
       <ButtonsMenu />
+      <PlayerStatsPage />
     </div>
   );
 }
