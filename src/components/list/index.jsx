@@ -3,8 +3,8 @@ import './list.css';
 
 const List = (props) => {
      return (
-         <div>
-            <h3 class="hotpink">{props.title}</h3>
+         <div className="list">
+            <h3 class="hotpink listTitle">{props.title}</h3>
             <ul>
                 {props.items.map((item, index) => (
                 <li>{item}</li>

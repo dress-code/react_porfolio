@@ -1,9 +1,10 @@
-div {
-    margin: 10px;
+.list {
+    margin-right: 50px;
 }
 
-h3 {
+.listTitle {
     margin: 0 0 10px 0;
+    font-size: 14px;
 }
 
 ul {
@@ -13,4 +14,5 @@ ul {
 
 li {
     margin-bottom: 5px;
+    font-size: 12px;
 }
