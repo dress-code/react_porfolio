@@ -1,0 +1,15 @@
+.floatyButton{
+    background-color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    margin: 25px;
+}
+
+.floatyButton > h1 {
+    font-size: 10px;
+    color: #2c2c2c;
+    text-align: center;
+}
