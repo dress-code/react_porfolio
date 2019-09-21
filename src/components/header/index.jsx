@@ -1,9 +1,10 @@
 import React from 'react';
 import './header.styl';
 
-const Header = (props) => {
+const Header = ({additionalClasses, text}) => {
+    let classes = "sectionHeader typewriter " + additionalClasses;
     return(
-        <h1 className="sectionHeader typewriter yellow">{props.text}<span className="blinky">_</span></h1>
+        <h1 className={classes}>{text}<span className="blinky">_</span></h1>
     )
 }
 

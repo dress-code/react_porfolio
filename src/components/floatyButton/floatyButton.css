@@ -8,16 +8,16 @@
     margin-right: 25px;
     margin-bottom: 25px;
     padding: 12.5px;
+}
+
+.floatyButton:hover {
     animation: shadow-pop-tr 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    cursor: pointer;
 }
 
 .floatyButton > h1 {
     font-size: 8px;
     text-align: center;
-}
-
-.floatyButton:hover {
-     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 @keyframes shadow-pop-tr {
