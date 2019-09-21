@@ -12,6 +12,14 @@ body {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.centerJustify {
+  justify-content: center;
+}
+
 h1, h2, h3, h4 {
   text-align: left;
   font-weight: bold;

@@ -4,7 +4,7 @@ import heart from '../../images/heart.png';
 
 const Health = (props) => {
     return (
-        <div className="container center-vertical">
+        <div className="container center-vertical gpa">
             <h4>GPA:</h4>
             <div className="container hearts">
                 <img className="heart" src={heart} alt="A heart representing a health point."/>
