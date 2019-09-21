@@ -15,7 +15,7 @@ const FloatyButton = ({icon, text}) => {
         <div className="floatyButton">
             {console.log(path)}
             {/*<img className="buttonIcon" src={path} alt=""/>*/}
-            <h1>{text}</h1>
+            <h1 className="yellow">{text}</h1>
         </div>
     )
 }

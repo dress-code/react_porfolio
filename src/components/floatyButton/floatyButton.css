@@ -1,15 +1,36 @@
 .floatyButton{
-    background-color: #FEFEFE;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 70px;
-    width: 70px;
-    margin: 25px;
+    border: 3px solid #FFBA49;
+    height: 52.5px;
+    width: 52.5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 12.5px;
+    animation: shadow-pop-tr 0.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 .floatyButton > h1 {
-    font-size: 10px;
-    color: #2c2c2c;
+    font-size: 8px;
     text-align: center;
 }
+
+.floatyButton:hover {
+     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-tr {
+    0% {
+          -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49, 0 0 #FFBA49;
+          -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+        }
+    100% {
+        -webkit-box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+        box-shadow: 1px 1px #FFBA49, 2px 2px #FFBA49, 3px 3px #FFBA49, 4px 4px #FFBA49, 5px 5px #FFBA49, 6px 6px #FFBA49;
+        -webkit-transform: translateX(-8px) translateY(-8px);
+        transform: translateX(-8px) translateY(-8px);
+    }
+  }

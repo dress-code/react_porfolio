@@ -1,5 +1,5 @@
 import React from 'react';
-import FloatyButton from "./components/floatyButton";
+import ButtonsMenu from "./components/buttonsMenu";
 import Header from './components/header';
 import PlayerStats from './components/playerStats';
 import './App.css';
@@ -9,7 +9,7 @@ function App() {
     <div className="App container column">
       <Header text="Player Stats"/>
       <PlayerStats />
-      <FloatyButton icon="resume" text="Resumé"/>
+      <ButtonsMenu />
     </div>
   );
 }
